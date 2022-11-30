@@ -56,7 +56,9 @@ export default function Id() {
                     </tbody>
             </table>
             </div>
-
+            <div className="flex justify-center py-4">
+                <button className='py-4 bg-primaryColor text-white p-2' onClick={() => router.push('/')}>Go back</button>
+            </div>
         </div>
     )
 }

@@ -1,10 +1,9 @@
-import Link from "next/link";
-import Login from "./login";
+import Main from "./main";
 
 export default function App() {
     return (
-      <Link href='/'>
-        <Login />
-      </Link>
+      <div>
+        <Main />
+      </div>
     )
 }

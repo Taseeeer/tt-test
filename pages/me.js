@@ -16,7 +16,12 @@ export default function Me() {
         })();
     }, []);
 
-    if(loading) return <Spinner />
+    if(loading) return (
+        <>
+        <Header />
+        <Spinner />
+        </>
+    )
     return (
         <div>
             <Header />
